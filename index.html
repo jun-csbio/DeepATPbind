@@ -1,0 +1,127 @@
+
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>SOMRuler: A Novel Interpretable Transmembrane Helices Predictor</title>
+
+<meta name="KEYWORDS" lang="en-us" content="missing values, incomplete data, ensemble algorithm,EMDI">
+<meta name="DESCRIPTION" content="ensemble algorithm EMDI">
+
+<script language="JavaScript">
+<!--
+function MM_preloadImages() { //v3.0
+ var d=document; if(d.images){ if(!d.MM_p) d.MM_p=new Array();
+   var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
+   if (a[i].indexOf("#")!=0){ d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
+}
+
+//-->
+</script>
+
+<style>
+      p.ref{  /* for bibliography */
+        margin-left: 4em;
+        text-indent: -2.5em
+      } 
+
+      code{
+        font-family: monospace;
+      }
+
+      p.code{
+        margin-left: 2.5em;
+	text-align: left;
+	font-family: monospace;
+      }
+</style>
+</head>
+<body bgcolor="#ffffff" text="#000000" link="#996600" vlink="#996600" alink="#6699CC" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0" onload="MM_preloadImages(&#39;graphics/template_r3_c3_f2.jpg&#39;);">
+<table border="0" bgcolor="#F0F8FF" cellpadding="0" cellspacing="0" width="700" align="center">
+<TR>
+
+    <TD vAlign=bottom align="justify"><img border="0" src="/images/11.jpg" width="800" height="114"></TD>
+
+    </TR><br><br>
+  <tbody>
+   <tr><td valign="top" bgcolor="#ffffff">
+  <br><table width="650" border="0" align="center" cellpadding="5" cellspacing="0">
+      <tbody><tr>
+      
+      <td "justify" valign="top">
+	<font face="Verdana, Arial, Helvetica, sans-serif"><b>
+	SOMRuler: A Novel Interpretable Transmembrane Helices Predictor</b></font>
+	<br>
+
+	<br>
+	<font size="-1" ,="" face="Verdana, Arial, Helvetica, sans-serif">
+	  <b>Introduction</b>
+	</font> 
+	<br><br>
+           
+	<font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+	Transmembrane helices (TMH) identification is one of the most important steps in membrane protein structure prediction. 
+	Existing TMH predictors tend to pursue accurate computational models without carefully considering the interpretability of these models 
+	and thus act as a black box. In this paper, a novel TMH predictor called SOMRuler with excellent interpretability while possessing high 
+	prediction accuracy is presented. The SOMRuler uses a self-organizing map (SOM) to learn helices distribution knowledge, 
+	which is encoded in the codebook vectors of the trained SOM, from the training samples. Human interpretable fuzzy rules are then 
+	extracted from the codebook vectors of the trained SOM. By extracting fuzzy rules from the learned knowledge rather than the original 
+	training samples, on the one hand, the computational burden of extracting fuzzy rules can be greatly reduced; on the other hand, the 
+	reliability of the extracted rules can also be enhanced since noise contained in the original samples can be smoothened by the learning procedure of SOM. 
+	The validity of the fuzzy rules extracted by SOMRuler is qualitatively and quantitatively analyzed. Experimental results on the benchmark 
+	dataset show that the SOMRuler outperforms most existing popular TMH predictors and is flexible to suite for a wide variety of problems in bioinformatics. 
+	</font>
+    
+  <br><br>
+	<font size="-1" ,="" face="Verdana, Arial, Helvetica, sans-serif">
+	  <a name="installation"><b>SOMRuler software package</b></a>
+	</font> 
+   <br><br>        
+	<font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+
+	  Figure 1 shows the flowchart of SOMRuler and click <a href="./SOMRuler.zip"><b>here</b></a> to download the whole software package, the benchmark dataset,
+	   and the mined fuzzy rules of SOMRuler.  
+	  
+	</font> <br><br>
+	<a href="./Flowchart.jpg" target="_new"><img src="./Flowchart.jpg"></img><br></a>
+	Figure 1. Flowchart of SOMRuler. <br><br>
+	
+	  <br>
+	  	<font size="-1" ,="" face="Verdana, Arial, Helvetica, sans-serif">
+	  <a name="installation"><b>Mined Fuzzy Rules</b></a>
+	</font> 
+   <br><br>        
+	<font size="-1" face="Verdana, Arial, Helvetica, sans-serif">
+	Figure 2 shows 4 mined fuzzy rules by SOMRuler for predicting TMHs and more results are availabe by clicking <a href="./SOMRuler.zip"><b>here</b></a>.<br><br>
+	<a href="./Rule.jpg" target="_new"><img src="./Rule.jpg" width=600></img></a><br>
+	Figure 2. Mined fuzzy rules by SOMRuler for TMH prediction.<br><br>
+	  
+	</font>
+	
+			  <br><br>
+	<font size="-1" ,="" face="Verdana, Arial, Helvetica, sans-serif">
+	  <a name="installation"><b>Link</b></a>
+	</font> 
+   <br><br>        
+	<font size="-1" face="Verdana, Arial, Helvetica, sans-serif">	  
+	<a href="http://www.csbio.sjtu.edu.cn/bioinf/MemBrain/" target="_new">MemBrain</a>: Improving the Accuracy of Predicting Transmembrane Helices.  
+	</font>
+	
+	  <br><br>
+	  
+	<font size="-1" ,="" face="Verdana, Arial, Helvetica, sans-serif">
+	  <a name="installation"><b>Reference</b></a>
+	</font> 
+   <br><br>        
+	<font size="-1" face="Verdana, Arial, Helvetica, sans-serif">	  
+	Dong-Jun Yu, Hong-Bin Shen, Jing-Yu Yang, SOMRuler: A Novel Interpretable Transmembrane Helices Predictor, <i>IEEE Transactions on NanoBioscience</i>,  2011, <b>10</b>: 121-129.
+	</font>
+	
+	<br><br>
+ 
+      </td>
+    </tr>
+  </tbody></table>
+  </td>
+      </tr>
+</tbody></table>
+
+
+</body></html>
